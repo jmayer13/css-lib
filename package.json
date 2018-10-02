@@ -1,0 +1,16 @@
+{
+  "name": "css-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/index.css -d css --config postcss.config.js"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.4",
+    "postcss-cli": "^6.0.0",
+    "postcss-loader": "^3.0.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
